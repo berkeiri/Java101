@@ -18,7 +18,7 @@ public class Kdv {
             return;
         }
         else {
-            System.out.println("Invalid product number supplied!");
+            System.out.println("geçersiz bir değer");
         }
 
         kdvli=(fiyat/100)*kdvorani+fiyat;
