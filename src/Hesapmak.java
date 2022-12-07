@@ -25,6 +25,9 @@ public class Hesapmak {
                 break;
             case 4:
                 System.out.println("bölme:"+(n1/n2));
+                break;
+            default:
+                System.out.println("lütfen doğru bir değer giriniz");
 
 
         }
