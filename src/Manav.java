@@ -8,6 +8,7 @@ public class Manav {
         fmuz=0.95;
         fpatlican=5;
 
+
         Scanner input=new Scanner(System.in);
         System.out.println("Kaç kilo armut istersiniz:");
         armut=input.nextInt();
@@ -22,5 +23,7 @@ public class Manav {
 
         toplam=elma*felma+armut*farmut+domates*fdomates+muz*fmuz+patlican*fpatlican;
         System.out.println("Toplam Tutar:" + toplam+ "TL");
+
+
     }
 }
